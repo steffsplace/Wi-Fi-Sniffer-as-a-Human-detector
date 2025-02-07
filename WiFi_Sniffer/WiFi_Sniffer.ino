@@ -52,7 +52,7 @@ StaticJsonDocument<JBUFFER>  jsonBuffer;
 void setup() {
   Serial.begin(9600);
   Serial.printf("\n\nSDK version:%s\n\r", system_get_sdk_version());
-  Serial.println(F("Human detector by Andreas Spiess. ESP8266 mini-sniff by Ray Burnette http://www.hackster.io/rayburne/projects"));
+  Serial.println(F("Halli Hallo Human detector by Andreas Spiess. ESP8266 mini-sniff by Ray Burnette http://www.hackster.io/rayburne/projects"));
   Serial.println(F("Based on the work of Ray Burnette http://www.hackster.io/rayburne/projects"));
 
   wifi_set_opmode(STATION_MODE);            // Promiscuous works only with station mode
